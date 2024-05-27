@@ -25,6 +25,8 @@ ul{
 }
 
 ul li a{
+    font-size:larger;
+    font-weight:bolder;
     padding: 0 20px;
     text-decoration: none;
     color: #3a3a3a;
@@ -43,11 +45,25 @@ li a::after{
 li a:hover::after{
     width: 100%;
 }
+.Sign_up_btn{
+    border-radius:15px;
+    padding: 2px 10px;
+    background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+}
 
+.Sign_up_btn:hover{
+   background-position: right center; /* change the direction of the change here */ 
+}
+
+
+.logo>img{
+    border:2px;
+    border-radius: 10px;
+
+}
 
 main{
     display: flex;
-    border: 1px solid gray;
     height: calc(100vh - 100px);
     align-items: center;justify-content: center;
 }
