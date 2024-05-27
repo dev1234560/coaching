@@ -14,14 +14,20 @@ html{
 }
 header{
     height: 100px;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    overflow:hidden;
+    position:fixed;
+    background: white;
+
 }
 
 ul{
     display: flex;
     list-style-type:none;
+
 }
 
 ul li a{
@@ -64,7 +70,8 @@ li a:hover::after{
 
 main{
     display: flex;
-    height: calc(100vh - 100px);
+    padding:5%;
+
     align-items: center;justify-content: center;
 }
 
