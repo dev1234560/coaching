@@ -16,12 +16,15 @@ header{
     height: 100px;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     overflow:hidden;
     position:fixed;
     background: white;
 
+}
+header .Name{
+  display : inline;
 }
 
 ul{
@@ -64,7 +67,7 @@ li a:hover::after{
 
 .logo>img{
     border:2px;
-    border-radius: 10px;
+    border-radius: 15%;
 
 }
 
